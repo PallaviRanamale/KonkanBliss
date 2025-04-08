@@ -22,11 +22,11 @@ const { publicRuntimeConfig } = getConfig();
 
 function Home(props) {
   return (
-    <MainLayout title='Beach Resort ― Home'>
+    <MainLayout title='Kokan Beach Resort ― Home'>
       <Hero>
         <Banner
           title='luxurious rooms'
-          subtitle='deluxe rooms starting at $299'
+          subtitle='deluxe rooms starting at Rs.999'
         >
           <Link href='/rooms' className='btn-primary'>
             our rooms

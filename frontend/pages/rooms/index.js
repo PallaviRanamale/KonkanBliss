@@ -33,7 +33,7 @@ function Rooms(props) {
   }, [props]);
 
   return (
-    <MainLayout title='Beach Resort ― Rooms'>
+    <MainLayout title='Kokan Beach Resort ― Rooms'>
       <Hero hero='roomsHero'>
         <Banner title='our rooms'>
           <Link className='btn-primary' href='/'>

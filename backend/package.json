@@ -1,12 +1,12 @@
 {
   "name": "hotel-room-booking-system-backed",
   "version": "v0.0.1",
-  "description": "Build an Hotel Room Booking System for node.js, express.js application from the scratch by Mukul",
+  "description": "Build a Hotel Room Booking System for node.js, express.js application from scratch by Mukul",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "NODE_ENV=development nodemon server.js",
-    "prod": "NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "prod": "cross-env NODE_ENV=production node server.js",
     "lint": "eslint .",
     "test": "jest --forceExit",
     "coverage": "npm run test --coverage --watchAll"
@@ -45,6 +45,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-jest": "^29.3.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
