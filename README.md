@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- social media connecting shield -->
 
 [![Facebook][facebook-shield]][facebook-url]
@@ -49,3 +50,6 @@ Hello 👋, I'm <strong>Samiur Rahman Mukul</strong>. In this repository i will 
 <p align="center">
   <strong> HAPPY DEVELOPMENT 😀 & I LOVE PROGRAMMING 💖 </strong>
 </p>
+=======
+# KonkanBliss
+>>>>>>> b12ffacae35e1c85939de7b6fec481b89417fa56
